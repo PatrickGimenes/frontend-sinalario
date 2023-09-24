@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <HomePage />
+
+    <RouterView></RouterView>
   </div>
 </template>
 

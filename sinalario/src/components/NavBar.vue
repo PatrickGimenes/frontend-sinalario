@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Sinalario</a>
+      <!-- <a class="navbar-brand" href="#">Sinalario</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -12,13 +12,16 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <RouterLink to="/" class="nav-link active" aria-current="page">
+              Páginal Inicial
+            </RouterLink>
+            <!-- <a class="nav-link active" aria-current="page" href="#"
               >Páginal Inicial</a
-            >
+            > -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sobre</a>
@@ -28,6 +31,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Histórico</a>
+          </li>
+
+          <li class="nav-item">
+            <RouterLink to="/login" class="nav-link">Login</RouterLink>
           </li>
 
           <!-- <li class="nav-item dropdown">
